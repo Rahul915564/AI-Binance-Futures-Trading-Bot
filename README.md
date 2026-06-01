@@ -1,62 +1,102 @@
 # 🚀 AI Binance Futures Trading Bot
 
-An advanced AI-powered Binance Futures Trading Dashboard built using:
-
-- Python
-- Streamlit
-- Binance Futures API
-- Plotly
-- Technical Indicators
-- AI Trading Logic
+An advanced AI-powered Binance Futures Trading Dashboard built using Python and Streamlit.
 
 ---
 
-# 📌 Features
+# ✨ Features
 
-✅ Live BTCUSDT Price  
-✅ Real-Time Candlestick Chart  
-✅ EMA20 Indicator  
-✅ RSI Indicator  
-✅ AI Buy/Sell Signals  
-✅ Auto Trading Bot  
-✅ Futures Trading Integration  
-✅ TP/SL Automation  
-✅ Risk Management System  
-✅ Leverage Control  
-✅ Trade History Dashboard  
-✅ Premium Dark Glass UI  
+- 📈 Live BTCUSDT Candlestick Chart
+- 🤖 AI Trading Signals
+- 📊 EMA20 + RSI Indicators
+- ⚡ Binance Futures Testnet Integration
+- 🛡️ Risk Management System
+- 🎯 Take Profit & Stop Loss
+- 💹 Manual Trading Panel
+- 📜 Recent Trade History
+- 🌙 Premium Dark Glass UI
 
 ---
 
-# ⚡ Technologies Used
+# 🛠️ Tech Stack
 
 - Python
 - Streamlit
 - Binance API
-- Pandas
 - Plotly
+- Pandas
 - TA Library
 
 ---
 
-# 📈 AI Trading Strategy
+# 📂 Project Structure
 
-The bot uses:
-- RSI (Relative Strength Index)
-- EMA20 Trend Analysis
-
-### BUY Logic
-- RSI < 30
-- Price Above EMA20
-
-### SELL Logic
-- RSI > 70
-- Price Below EMA20
+```bash
+trading_bot/
+│
+├── bot/
+│   ├── app.py
+│   ├── client.py
+│   ├── orders.py
+│   ├── validators.py
+│   └── logger_config.py
+│
+├── screenshots/
+│
+├── requirements.txt
+├── README.md
+└── .env
+```
 
 ---
 
-# ▶️ Run Project
+# ⚙️ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/Rahul915564/AI-Binance-Futures-Trading-Bot.git
+```
+
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Run Project
+
+```bash
 streamlit run bot/app.py
+```
+
+---
+
+# 📸 Project Screenshots
+
+## Dashboard
+![Dashboard](screenshots/Dashboard.png)
+
+## AI Trading Chart
+![Chart](screenshots/chart.png)
+
+## Trading Signals
+![Signals](screenshots/signals.png)
+
+## Risk Management
+![Risk](screenshots/risk-management.png)
+
+## Trade History
+![History](screenshots/trade-history.png)
+
+---
+
+#  Developer
+
+Rahul Kumar
+
+---
+
+# Internship Project
+
+Advanced AI Binance Futures Trading Dashboard developed for internship submission.
