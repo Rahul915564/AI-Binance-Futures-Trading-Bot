@@ -2,6 +2,7 @@
 
 An advanced AI-powered Binance Futures Trading Dashboard built using Python and Streamlit.
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://ai-binance-futures-trading-bot-7ol8fmss7dxvza5jfr9nso.streamlit.app/)
 ---
 
 # ✨ Features
