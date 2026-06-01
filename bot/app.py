@@ -7,7 +7,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import ta
 import time
-
+import requests
 # =========================
 # PREMIUM DARK GLASS UI
 # =========================
@@ -83,7 +83,19 @@ API_SECRET = os.getenv("BINANCE_API_SECRET")
 # Create Binance Client
 # =========================
 
-client = Client(API_KEY, API_SECRET, testnet=True)
+
+
+session = requests.Session()
+
+client = Client(
+    API_KEY,
+    API_SECRET,
+    testnet=True
+)
+try:
+    client.futures_account_balance()
+except:
+    pass
 
 # Binance Futures Testnet
 client.FUTURES_URL = "https://testnet.binancefuture.com/fapi"
