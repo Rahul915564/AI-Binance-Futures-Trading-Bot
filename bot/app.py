@@ -83,7 +83,7 @@ API_SECRET = os.getenv("BINANCE_API_SECRET")
 # Create Binance Client
 # =========================
 
-client = Client(API_KEY, API_SECRET)
+client = Client(API_KEY, API_SECRET, testnet=True)
 
 # Binance Futures Testnet
 client.FUTURES_URL = "https://testnet.binancefuture.com/fapi"
